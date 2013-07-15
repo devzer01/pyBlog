@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'pyBlog.views.home', name='home'),
     # url(r'^pyBlog/', include('pyBlog.foo.urls')),
 
+	url(r'^posts/', include('posts.urls')),
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
